@@ -522,15 +522,6 @@ a {
     gap: 14px;
 }
 
-.finding-hospitals-media {
-    grid-template-columns: 1fr;
-}
-
-.finding-hospitals-media img {
-    height: auto;
-    max-height: none;
-}
-
 .project-media figure {
     overflow: hidden;
     border: 1px solid var(--border);
@@ -545,6 +536,16 @@ a {
     object-fit: contain;
     padding: 10px;
     background: #090d14;
+}
+
+.project-media.finding-hospitals-media {
+    grid-template-columns: 1fr;
+}
+
+.project-media.finding-hospitals-media img {
+    height: auto;
+    max-height: none;
+    object-fit: contain;
 }
 
 .project-media figcaption {
