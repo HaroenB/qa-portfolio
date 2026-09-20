@@ -659,3 +659,9 @@ button:focus-visible {
         font-size: clamp(3rem, 6.6vw, 5.4rem);
     }
 }
+
+.finding-hospitals-media figure:first-child {
+    width: 100%;
+    max-width: 800px;
+    margin-inline: auto;
+}
